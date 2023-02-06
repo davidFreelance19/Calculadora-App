@@ -14,18 +14,18 @@ body{
 }
 main{
   width: 360px;
+  height: 650px;
   margin: 0 auto;
+  grid-template-rows: 50px auto 450px;
+  display: grid;
+  gap: 2rem;
 }
 @media (min-width: 1025px) {
      main{
       width: 540px;
+      height: 720px;
+      grid-template-rows: 60px auto 480px;
      }
-}
-main{
-  height: 720px;
-  display: grid;
-  grid-template-rows: 60px auto 480px;
-  gap: 2rem;
 }
 .container__controller{
   display: flex;
